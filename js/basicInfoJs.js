@@ -11,12 +11,12 @@ function saveBasic() {
 
     var popu = document.getElementById("popu").value;
     flag += customInputValidator(popu, "popu");
+//change by Monali
+    var totwater = document.getElementById("totwater").value;
+    flag += customInputValidator(totwater, "totwater");
 
-    var female = document.getElementById("female").value;
-    flag += customInputValidator(female, "female");
-
-    var male = document.getElementById("male").value;
-    flag += customInputValidator(male, "male");
+    var totel = document.getElementById("totel").value;
+    flag += customInputValidator(totel, "totel");
 
     var city = document.getElementById("city").value;
     flag += customInputValidator(city, "city");
@@ -36,8 +36,8 @@ function saveBasic() {
     flag += customInputValidator(hospital, "hospital");
 
     userData["popu"] = popu;
-    userData["female"] = female;
-    userData["male"] = male;
+    userData["totwater"] = totwater;
+    userData["totel"] = totel;
     userData["city"] = city;
     userData["tArea"] = tArea;
     userData["gArea"] = gArea;

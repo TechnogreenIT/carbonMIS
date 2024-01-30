@@ -1,7 +1,7 @@
 <?php
 $db_name = "carbon_mis";
 $mysqli_username = "root";
-$mysqli_password = "Root@123";
+$mysqli_password = "";
 $server_name = "localhost";
 $conn = mysqli_connect($server_name, $mysqli_username, $mysqli_password, $db_name);
 if ($conn) {

@@ -61,7 +61,7 @@ require "php/session.php";
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-10 col-xl-6 col-10">
-                                            <label for="hospital" class="form-label">No. of Hospitals</label>
+                                            <label for="hospital" class="form-label">Healthcare Facilities</label>
                                             <div class="input-group mb-3">
                                                 <input type="number" id="hospital" class="form-control"
                                                     placeholder="Hospital" aria-label="Hospital"
@@ -78,21 +78,32 @@ require "php/session.php";
                                                     aria-describedby="basic-addon2" onkeypress="return validateNumber(event)">
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-lg-10 col-xl-6 col-10">
+                                        <!-- <div class="col-md-6 col-lg-10 col-xl-6 col-10">
                                             <label for="gdp" class="form-label">GDP</label>
                                             <div class="input-group mb-3">
                                                 <input type="text" id="gdp" class="form-control" placeholder="GDP"
                                                     aria-label="GDP" aria-describedby="basic-addon2" >
                                             </div>
+                                        </div> -->
+                                        <div class="col-md-6 col-lg-10 col-xl-6 col-10">
+                                            <label for="gArea" class="form-label">Green Area</label>
+                                            <div class="input-group mb-3">
+                                                <input type="text" id="gArea" class="form-control"
+                                                    placeholder="Green Area" aria-label="Green Area"
+                                                    aria-describedby="basic-addon2">
+                                                <span class="input-group-text" id="basic-addon2">sq.km</span>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
                                         <div class="col-md-6 col-lg-10 col-xl-6 col-10">
-                                            <label for="male" class="form-label"> Male</label>
+                                            <!-- <label for="male" class="form-label"> Male</label> -->
+                                            <label for="totel" class="form-label"> Total Electricity Consumed</label>
                                             <div class="input-group mb-3">
-                                                <input type="number" id="male" class="form-control" placeholder="Male"
-                                                    aria-label="Male" aria-describedby="basic-addon2" onkeypress="return validateNumber(event)">
-                                            </div>
+                                                <input type="number" id="totel" class="form-control" placeholder="Total Electricity"
+                                                    aria-label="Total Electricity" aria-describedby="basic-addon2" onkeypress="return validateNumber(event)">
+                                                    <span class="input-group-text" id="basic-addon2">KWH/Y</span>
+                                                </div>
                                         </div>
                                         <div class="col-md-6 col-lg-10 col-xl-6 col-10">
                                             <label for="tArea" class="form-label">Total Area</label>
@@ -104,15 +115,19 @@ require "php/session.php";
                                             </div>
                                         </div>
                                     </div>
+                                    <!--//change by Monali-->
+                                     <!--//change by Monali-->
                                     <div class="row justify-content-center">
                                         <div class="col-md-6 col-lg-10 col-xl-6 col-10">
-                                            <label for="female" class="form-label">Female</label>
+                                            <!-- <label for="female" class="form-label">Female</label> -->
+                                            <label for="totwater" class="form-label">Total Water Supply</label>
                                             <div class="input-group mb-3">
-                                                <input type="number" id="female" class="form-control" placeholder="Female"
-                                                    aria-label="Female" aria-describedby="basic-addon2" onkeypress="return validateNumber(event)">
+                                                <input type="number" id="totwater" class="form-control" placeholder="Total Water Supply"
+                                                    aria-label="totwater" aria-describedby="basic-addon2" onkeypress="return validateNumber(event)">
+                                                    <span class="input-group-text" id="basic-addon2">MLD</span>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-lg-10 col-xl-6 col-10">
+                                        <!-- <div class="col-md-6 col-lg-10 col-xl-6 col-10">
                                             <label for="gArea" class="form-label">Green Area</label>
                                             <div class="input-group mb-3">
                                                 <input type="text" id="gArea" class="form-control"
@@ -120,7 +135,7 @@ require "php/session.php";
                                                     aria-describedby="basic-addon2">
                                                 <span class="input-group-text" id="basic-addon2">sq.km</span>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="row ">
                                         <div class="col-md-12  text-center">
